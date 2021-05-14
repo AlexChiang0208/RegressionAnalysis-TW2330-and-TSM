@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import statsmodels.api as sm
 
-address = '/Users/alex_chiang/Documents/迴歸分析/期中_簡單迴歸/Data/'
+address = '/Users/alex_chiang/Documents/GitHub/RegressionAnalysis-TW2330-and-TSM/Data/'
 df = pd.read_csv(address+'Regression_XY_data.csv', parse_dates=True, index_col='Date')
 
 #1 ACF 檢驗樣本之間是否有時間相依性

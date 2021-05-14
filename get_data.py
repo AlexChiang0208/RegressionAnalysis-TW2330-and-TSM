@@ -30,7 +30,7 @@ TW_2330 = TW_2330.rename('TW_2330')
 df_price = pd.concat([TW_2330, TSM], axis=1)
 
 # 儲存成 csv
-address = '/Users/alex_chiang/Documents/迴歸分析/期中_簡單迴歸/Data/'
+address = '/Users/alex_chiang/Documents/GitHub/RegressionAnalysis-TW2330-and-TSM/Data/'
 df_XY.to_csv(address+'Regression_XY_data.csv')
 df_price.to_csv(address+'StockPrice.csv')
 #%%
@@ -69,5 +69,5 @@ plot_cooks_distance(cooks_df[0])
 large_influence_date = cooks_df[cooks_df.iloc[:,0] > 4/len(cooks_df)].index
 df_remove_inf = df_XY.drop(index=large_influence_date)
 
-address = '/Users/alex_chiang/Documents/迴歸分析/期中_簡單迴歸/Data/'
+address = '/Users/alex_chiang/Documents/GitHub/RegressionAnalysis-TW2330-and-TSM/Data/'
 df_remove_inf.to_csv(address+'RemoveOutliers_XY_data.csv')
