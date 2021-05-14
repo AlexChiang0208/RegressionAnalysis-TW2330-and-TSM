@@ -30,6 +30,11 @@
 1. [簡報呈現](Result/迴歸分析_簡報呈現.pdf)
 2. [書面資料](Result/迴歸分析_書面資料.pdf)
 
+### 五、程式碼
+1. [資料取得](get_data.py)
+2. [探索性資料分析_去除離群值前](origin_data_EDA.R)
+3. [探索性資料分析_去除離群值後](removed_data_EDA.R)
+4. [迴歸分析](reg_model.py)
 
 ---
 
