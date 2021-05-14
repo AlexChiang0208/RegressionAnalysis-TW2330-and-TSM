@@ -30,8 +30,8 @@
 
 
 ### 完成作品：
-1. [結論簡報](https://docs.google.com/presentation/d/1-PuX-PhRuA_fpbkmHxMwq7XdjgAcatWn8nIDYwPS3IE/edit?usp=sharing)
-2. [書面資料]()
+1. [簡報呈現](https://docs.google.com/presentation/d/1-PuX-PhRuA_fpbkmHxMwq7XdjgAcatWn8nIDYwPS3IE/edit?usp=sharing)
+2. [書面資料](Result/迴歸分析_書面資料.pdf)
 
 
 ---
